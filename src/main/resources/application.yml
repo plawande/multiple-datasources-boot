@@ -1,0 +1,17 @@
+spring:
+  mysql:
+    datasource:
+      jdbcUrl: jdbc:mysql://localhost:3306/userdb
+      #driver-class-name: com.mysql.cj.jdbc.Driver
+      username: root
+      password: Test1234
+  pgsql:
+    datasource:
+      jdbcUrl: jdbc:postgresql://localhost:5432/bookdb
+      driver-class-name: org.postgresql.Driver
+      username: postgres
+      password: root
+  jpa:
+    open-in-view: false
+
+
